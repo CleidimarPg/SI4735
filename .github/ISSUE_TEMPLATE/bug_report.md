@@ -1,28 +1,22 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
+title: '
+Stereo decoding'
 labels: bug
-assignees: ''
+assignees: 'Stereo decoding'
 
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+Even though the functions indicate stereo, the sound is mono without decoding, the sound is only monophonic (L+R),
 
-**To Reproduce**
+the getCurrentStereoBlend() shows "0"
 
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots or photo to help explain your problem.
 
 ** Please, add the following information):**
- - Arduino IDE version 
- - Arduino Board
- - Library version
+ - Arduino IDE version 1.8.9
+ - Arduino Board  esp8266
+ - Library version 2.1.8
 
-**Additional context**
-Add any other context about the problem here.
+
